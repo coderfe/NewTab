@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(https://source.unsplash.com/category/nature/1366x768) no-repeat;
+  background-size: 1366px auto;
+  background-attachment: fixed;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .36);
+}
+
+p {
+  line-height: 2;
+}
+
+
+.content-inner {
+  width: 760px;
+  padding: 20px;
+  margin: 100px auto 0 auto;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, .8);
+  overflow: hidden;
+}
+
+.answer .meta span,
+.answer .meta .avatar {
+  vertical-align: middle;
+  color: #999;
+}
+
+.answer .meta .author {
+  padding-left: 5px;
+}
+
+.content li {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.content a {
+  color: #105CB6;
+  text-decoration: none;
+}
+.content a:hover {
+  text-decoration: underline;
+}
+.view-more a {
+  float: right;
+  color: #698ebf;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.top {
+  position: fixed;
+  bottom: 30px;
+  right: 120px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background: #105CB6 url(../images/top.svg) 9px no-repeat;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .26);
+  cursor: pointer;
+}
+.top:focus {
+  outline: none;
+}
